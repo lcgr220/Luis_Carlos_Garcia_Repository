@@ -105,15 +105,16 @@
     height: 40px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
-   
-    background: linear-gradient(70deg, black, blue);
-    border-color:white;
-    border-style: solid;
-    color: white;
-    border-radius: 10px;
+    font-weight: 600;
+   background-color: transparent;
+   border-style: none;
     cursor: pointer;
 }
 
+.BotonC:hover{
+    color: white;
+    transition: 1s;
+}
 .BotonC::after{
     content: '';
     display: block;
