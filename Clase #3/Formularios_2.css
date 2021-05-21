@@ -32,7 +32,10 @@
     width: 250px;
     border-radius:  10px;
     border-style: solid;
-    border-color: black;
+   font-size: medium;
+   color: black;
+    background-color: white;
+    
 }
 .ApellidosC{
     position: absolute;
@@ -40,6 +43,7 @@
     top:140px;
     height: 30px;
     width: 250px;
+    font-size: medium;
     border-radius: 10px;
     border-style: solid;
     border-color: black;
@@ -50,6 +54,7 @@
     top:200px;
     height: 30px;
     width: 250px;
+    font-size: medium;
     border-radius: 10px;
     border-style: solid;
     border-color: black;
@@ -61,6 +66,7 @@
     top:260px;
     height: 30px;
     width: 250px;
+    font-size: medium;
     border-radius: 10px;
     border-style: solid;
     border-color: black;
@@ -100,7 +106,8 @@
     font-size: 20px;
    
     background: linear-gradient(70deg, black, blue);
-    border-color: black;
+    border-color:white;
+    border-style: solid;
     color: white;
     border-radius: 10px;
     cursor: pointer;
@@ -114,7 +121,7 @@
     width: 0;
     left: 0;
     background-color: white;
-    transition: width 0.3s ease-in-out
+    transition: width 0.5s ease-in-out
 }
 
 .BotonC:hover::after{
