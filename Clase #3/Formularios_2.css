@@ -1,0 +1,123 @@
+.BoxContainer{
+    position: absolute;
+    height: 400px;
+    width: 600px;
+    border-radius: 20px;
+    background: linear-gradient(70deg, blue, snow);
+    
+    left:300px;
+    top:80px;
+    border-style: solid;
+    border-color: black;
+    box-shadow: 1px 2px 12px 12px white;
+}
+#FormTitle{
+    position: relative;
+    left:180px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+#NombresID{
+    position: absolute;
+    left:110px;
+    top:85px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-weight: 600;
+   letter-spacing: 2px;
+}
+.NombresC{
+    position: absolute;
+    left:240px;
+    top:80px;
+    height: 30px;
+    width: 250px;
+    border-radius:  10px;
+    border-style: solid;
+    border-color: black;
+}
+.ApellidosC{
+    position: absolute;
+    left:240px;
+    top:140px;
+    height: 30px;
+    width: 250px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+}
+.DireccionC{
+    position: absolute;
+    left:240px;
+    top:200px;
+    height: 30px;
+    width: 250px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+    
+}
+.CorreoC{
+    position: absolute;
+    left:240px;
+    top:260px;
+    height: 30px;
+    width: 250px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+}
+
+#ApellidosID{
+    position: absolute;
+    left:115px;
+    top:145px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-weight: 600;
+   letter-spacing: 2px;
+}
+#DirecionID{
+    position: absolute;
+    left:140px;
+    top:205px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-weight: 600;
+   letter-spacing: 2px;
+}
+#CorreoID{
+    position: absolute;
+    left:155px;
+    top:270px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-weight: 600;
+   letter-spacing: 2px;
+}
+.BotonC{
+    position: absolute;
+    top:330px;
+    left:250px;
+    width: 240px;
+    height: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+   
+    background: linear-gradient(70deg, black, blue);
+    border-color: black;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.BotonC::after{
+    content: '';
+    display: block;
+    position: absolute;
+    height: 2px;
+    width: 0;
+    left: 0;
+    background-color: white;
+    transition: width 0.3s ease-in-out
+}
+
+.BotonC:hover::after{
+    width: 100%;
+ 
+}

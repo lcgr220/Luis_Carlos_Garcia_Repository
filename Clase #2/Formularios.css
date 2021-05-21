@@ -1,0 +1,54 @@
+.FormularioTitle{
+  
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 2px;
+}
+.FormularioBox{
+    position: absolute;
+    height:800px;
+    width:600px;
+    left:200px;
+    background-color: green;
+}
+#NombreText{
+    position: relative;
+    left: 500px;
+    letter-spacing: 2px;
+    font-size: 20px;    
+}
+.BoxNombre{
+    position: absolute;
+    
+    height: 20px;
+    border-radius: 20px;
+    border-color: red;
+}
+#ApellidoText{
+    position: relative;
+    
+    letter-spacing: 2px;
+    font-size: 20px;  
+}
+.BoxApellido{
+    position: absolute;
+
+    height: 20px;
+    border-radius: 20px;
+    border-color: red;
+}
+.BoxEmail{
+    position: absolute;
+    
+    height: 20px;
+    border-radius: 20px;
+    border-color: red;
+}
+.FormularioBox{
+    position: absolute;
+    height:600px;
+    width:800px;
+    left:200px;
+    background-color: blue;
+    border-radius: 100px;
+}

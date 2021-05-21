@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <link rel="stylesheet" href="Formularios.css">
     <title>Formularios & Atributos</title>
 </head>
 <body>
+    <div class="FormularioBox">
 <form >
    
     <h1 class="FormularioTitle">Formularios y Atributos</h1>
@@ -23,7 +24,7 @@
         <label id="ApellidoText">
             Apellido
     </label>
-    <input type="text" class="BoxEmail" placeholder="Put your email here">
+    <input type="text" class="BoxApellido" placeholder="Put your apellido here">
     </div>
     <br>
         <!-----------------------------------DIVIDER-------------------------------->
@@ -62,11 +63,11 @@
         <!-----------------------------------DIVIDER-------------------------------->    
      <div>   
          <label for="">Mensaje</label><br>
-        <textarea style="box-shadow: 2px 2px 3px black; border-radius: 20px;" name="MensajeText" id="" cols="30" rows="10"></textarea></div>
+        <textarea  name="MensajeText" id="" cols="30" rows="10"></textarea></div>
         
-        <input style=" height:40px; width:100px;position:absolute; left: 80px;border-radius: 20px; background-color: black; color: white; cursor:pointer;" type="button" value="Enviar Email" onclick="parent.location='mailto:tuemail@dominio.com'">
+        <input   type="button" value="Enviar Email" onclick="parent.location='mailto:tuemail@dominio.com'">
 
 </form>
-
+</div>
 </body>
 </html>
