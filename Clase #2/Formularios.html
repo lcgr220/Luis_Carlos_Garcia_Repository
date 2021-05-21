@@ -29,33 +29,33 @@
         <!-----------------------------------DIVIDER-------------------------------->
         <div>
             <label id="EmailText">
-                    Email
+                    Email    
             </label>
             <input type="email" class="BoxEmail" placeholder="Put your email here">
-            </div>
+<br>
+<br>
+            <label for="">Seleccion: </label>
             <br>
-         <!-----------------------------------DIVIDER-------------------------------->
+       <select name="Countries" id="Countries">
+           
+       <option value="">REP.DOM</option>
+       <option value="">PUERTO RICO</option>
+       <option value="">MEXICO</option>
+       <option value="">VENEZUELA</option>
+      
+    
+   </select>
+            </div>
+           
+     
+      
              <div>
         <!-----------------------------------DIVIDER-------------------------------->
 
 <div>
          <!-----------------------------------DIVIDER-------------------------------->
-         <label for="">Seleccion: </label>
-         <br>
-    <select name="Countries" id="Countries">
-        
-    <option value="">REP.DOM</option>
-    <option value="">PUERTO RICO</option>
-    <option value="">MEXICO</option>
-    <option value="">VENEZUELA</option>
-   
- 
-</select>
-<br>
-<label>correo:</label>
-<br>
-<a href="mailto:luis_carlos01@hotmail.com">
-<input type="button" value="enviar" >
+
+
 </a>
 </div>
 <br>
@@ -63,6 +63,9 @@
      <div>   
          <label for="">Mensaje</label><br>
         <textarea name="MensajeText" id="" cols="30" rows="10"></textarea></div>
+        
+        <input type="button" value="Enviar Email" onclick="parent.location='mailto:tuemail@dominio.com'">
+
 </form>
 
 </body>
