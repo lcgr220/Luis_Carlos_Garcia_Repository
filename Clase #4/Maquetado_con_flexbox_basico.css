@@ -65,21 +65,29 @@ li{
 }
 .Home{
     cursor: pointer;
-  
+    transition: 1s;
+}
+.Contacto{
+    cursor: pointer;
+    transition: 1s;
+}
+.Proyecto{
+    cursor: pointer;
+    transition: 1s;
 }
 .Home:hover{
     background-color: turquoise;
-    transition: 0.2s;
+    transition: 1s;
 }
 .Contacto:hover{
     background-color: palevioletred;
     cursor: pointer;
-    transition: 0.2s;
+    transition: 1s;
 }
 .Proyecto:Hover{
     cursor: pointer;
     background-color: purple;
-    transition: 0.2s;
+    transition: 1s;
 }
 
 footer{

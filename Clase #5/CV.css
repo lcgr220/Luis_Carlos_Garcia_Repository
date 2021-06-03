@@ -1,0 +1,347 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    cursor: default;
+    background-color: #E8F5FF;
+}
+p{
+    color: black;
+}
+.left-box{
+    
+    position:absolute;
+    height: 245vh;
+    width: 60vh;
+    left: 0vh;
+    top: 0vh;
+    background-color: #013565;
+    box-shadow: 0.1vh 0.1vh 2vh black;
+
+}
+.name{
+    position:absolute;
+    left: 8vh;
+    top: 48vh;
+    width: 100vh;
+    font-size: 6vh;
+    text-align: left;
+    letter-spacing: 0.2vh;
+color: white;
+ 
+}
+.last_name{
+    position:absolute;
+    left: 8vh;
+    top: 56vh;
+    width: 30vh;
+    font-size: 6vh;
+    text-align: left;
+    letter-spacing: 0.2vh;
+color: white;
+ 
+}
+.your-position{
+    position: absolute;
+    top: 72vh;
+    right: -6vh;
+    color: white;
+    text-align: left    ;
+    letter-spacing: 0.2vh;
+    max-width: 60vh;
+    min-width: 60vh;
+   
+    width: 60vh;
+   
+}
+.bulto
+{
+    position: absolute;
+    width: 50vh;
+    height: 0.5vh;
+    
+  border-width: 0.4vh;
+    background-color: white;
+    left: 4vh;
+    top: 86vh; 
+}
+.aptitudes{
+    position: absolute;
+    text-align: center;
+    color: white;
+    left:2vh;
+    top: -8vh;
+}
+.personal{
+    position: absolute;
+    text-align: center;
+    color: white;
+    left:2vh;
+    top: -8vh;
+}
+.contact{
+    position: absolute;
+    text-align: center;
+    color: white;
+    left:-8vh;
+    top: -8vh;
+    
+    width: 64vh;
+}
+
+.luis_garcia{
+    width:35vh;
+    height:35vh;
+    border-radius: 40vh;
+    position: absolute;
+    left: 10vh;
+    top: 12vh;
+    border-style: solid;
+    border-width:0.5vh;
+    border-color: WHITE;
+   
+    cursor: pointer;
+    transition: 0.3s;
+}
+.luis_garcia:hover{
+   width: 35.5vh;
+   height: 35.5vh;
+   transition: 0.3s;
+}
+.box-aptitudes{
+    position: absolute;
+    width: 50vh;
+    height: 0.3vh;
+    color: white;
+    font-size: 2.5vh;
+    left: 4vh;
+    top: 100vh;
+}
+.box-personal{
+    position: absolute;
+    width: 50vh;
+    height: 0.3vh;
+    color: white;
+    font-size: 2.5vh;
+    left: 4vh;
+    top: 180vh;
+}
+.box-contact{
+    position: absolute;
+    width: 50vh;
+    height: 0.4vh;
+   color: white;
+   font-size: 2.5vh;
+    left: 4vh;
+    top: 150vh;
+}
+.historial-laboral{
+    position: absolute;
+    height: 5vh;
+    width: 84vh;
+    left: 80vh;
+  
+    top:10vh;
+    background-color: #013565;
+    box-shadow: 0.1vh 0.3vh 1vh grey;
+}
+.historial-academico{
+    position: absolute;
+    height: 5vh;
+    width: 84vh;
+    left: 80vh;
+   
+    top:90vh;
+    background-color: #013565;
+    box-shadow: 0.1vh 0.3vh 1vh grey;
+}
+.interes-aficciones{
+    position: absolute;
+    height: 5vh;
+    width: 84vh;
+    left: 80vh;
+    top:208vh;
+    background-color: #013565;
+    box-shadow: 0.1vh 0.3vh 1vh grey;
+}
+
+#JS{
+    position: inherit;
+    top: 4vh;
+    left: 4vh;
+}
+#Java{
+    position: absolute;
+    top: 20vh;
+    left: 4vh;
+}
+#C{
+position: absolute;
+left: 4vh;
+top: 16vh;
+}
+    
+#SQL{
+    position: absolute;
+    top: 8vh;
+    left: 4vh;
+}
+#Excel{
+    position: absolute;
+    top: 12vh;
+    left: 4vh;
+}
+
+#Redes{
+    position: absolute;
+    top: 36vh;
+    left: 4vh;
+}
+#Angular{
+    position: absolute;
+    top: 28vh;
+    left: 4vh;
+}
+#Wordpress{
+    position: absolute;
+    top: 24vh;
+    left: 4vh;
+}
+#Typescript{
+    position: absolute;
+    top: 32vh;
+    left: 4vh;
+}
+#telefono{
+    position: absolute;
+    letter-spacing: 0.2vh;
+    top: 8vh;
+    font-size: 2.3vh;
+    left:4vh;
+}
+#mobile{
+    position: absolute;
+    letter-spacing: 0.2vh;
+    font-size: 2.3vh;
+    top: 4vh;
+    left:4vh;
+}
+#correo{
+    position: absolute;
+    letter-spacing: 0.2vh;
+    font-size: 2.3vh;
+    top: 12vh;
+    left:4vh;
+    width: 100vh;
+}
+#linkedin{
+    position: absolute;
+    letter-spacing: 0.2vh;
+    font-size: 2.3vh;
+    top: 16vh;
+    width:100vh;
+    left:4vh;
+}
+#historial-laboral{
+    position: absolute;
+ 
+    right: 60vh;
+    top: -1vh;
+    color: white;
+    font-size: 2.5vh;
+}
+#historial-academico{
+    position: absolute;
+    right: 55vh;
+    color: white;
+    top: -1vh;
+    font-size: 2.5vh;
+}
+#interes-aficciones{
+    position: absolute;
+    right: 55vh;
+    color: white;
+    top: -1vh;
+    font-size: 2.5vh;
+}
+#experiencia1{
+    position:absolute;
+    color: black;
+    font-size: 2.5vh;
+    top: 20vh;
+    left: 82vh;
+}
+#experiencia2{
+    position:absolute;
+    color: black;
+    font-size: 2.5vh;
+    top: 50vh;
+    left: 82vh;
+}
+#historial1{
+    position:absolute;
+    color: black;
+    font-size: 2.5vh;
+    top: 10vh;
+    width: 40vh;
+    left:2vh; 
+}
+#historial2{
+    position:absolute;
+    color: black;
+    font-size: 2.5vh;
+    top: 45vh;
+    width: 70vh;
+    left:2vh; 
+}
+.parrafo1
+{
+    width: 76vh;
+    text-align: justify;
+    left: 82vh;
+    top: 24vh;
+    position: absolute;
+
+}
+.parrafo2
+{
+    width: 76vh;
+    text-align: justify;
+    left: 82vh;
+    top: 54vh;
+    position: absolute;
+
+}
+.historial-parrafo1{
+    width: 76vh;
+    text-align: justify;
+    left: 2vh;
+    top: 15vh;
+    position: absolute;
+}
+.historial-parrafo2{
+    width: 76vh;
+    text-align: justify;
+    left: 2vh;
+    top: 50vh;
+    position: absolute;
+}
+.interes-parrafo1{
+    width: 76vh;
+    text-align: justify;
+    left: 2vh;
+    top: 10vh;
+    position: absolute;
+}
+#parrafo-personal{
+    position:absolute;
+    color: white;
+    font-size: 2.5vh;
+    text-align: justify;
+    top: -1vh;
+    width: 42vh;
+    left:2vh; 
+}
+.mapa{
+    position: absolute;
+    top: 210vh;
+    left: 6vh;
+}

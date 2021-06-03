@@ -6,9 +6,9 @@
     background: linear-gradient(20deg, blue, snow);
     
     left:700px;
-    top:80px;
-    border-style: solid;
-    border-color: black;
+    top:150px;
+    
+    
     
 }
 #FormTitle{
@@ -31,11 +31,12 @@
     height: 30px;
     width: 250px;
     border-radius:  10px;
-    border-style: solid;
-    border-color: black;
+    border-style: none;
+   
    font-size: medium;
    color: black;
     background-color: white;
+    outline:none;
     
 }
 .ApellidosC{
@@ -46,8 +47,9 @@
     width: 250px;
     font-size: medium;
     border-radius: 10px;
-    border-style: solid;
-    border-color: black;
+    border-style: none;
+
+    outline:none;
 }
 .DireccionC{
     position: absolute;
@@ -57,8 +59,9 @@
     width: 250px;
     font-size: medium;
     border-radius: 10px;
-    border-style: solid;
-    border-color: black;
+    border-style: none;
+ 
+    outline:none;
     
 }
 .CorreoC{
@@ -69,8 +72,9 @@
     width: 250px;
     font-size: medium;
     border-radius: 10px;
-    border-style: solid;
-    border-color: black;
+    border-style: none;
+    
+    outline:none;
 }
 
 #ApellidosID{
@@ -78,8 +82,11 @@
     left:115px;
     top:145px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-   font-weight: 600;
-   letter-spacing: 2px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+body{
+    background-color:mintcream;
 }
 #DirecionID{
     position: absolute;
@@ -120,15 +127,15 @@
 }
 
 .BotonC:hover{
-    background-color: rgb(25, 179, 199);
+    
     box-shadow: 0px 8px 15px rgba(17, 70, 184, 0.87);
-  transform: translateY(-2px);
+    transform: translateY(-2px);
 
 }
 .BotonClose{
     position: absolute;
     height:20px;
-    width: 20px;
+    width: 25px;
     border-radius: 10px;
     left: 550px;
     top:20px;
@@ -136,15 +143,65 @@
    font-size: 600;
     border-style: solid;
     cursor: pointer;
-    border-color: black;
+   border-style: none;
+   
+    border-width: 2px;
+    font-weight: bold;
     background-color:transparent;
 }
 .BotonClose:hover{
-    transition: 1s;
-    background-color: white;
+    transition: 0.7s;
+    
+    box-shadow: 0px 3px 10px rgba(17, 70, 184, 0.87);
+    transform: translateY(-2px);
 }
 
+.Gato{
+    position: absolute;
+    top:20px;
+    -webkit-filter: saturate(150%) hue-rotate(45deg) blur(1px);
+    filter: saturate(100%) hue-rotate(200deg) ;
+}
 
+.Home{
+    position: absolute;
+    left:800px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color:black ;
+    cursor: pointer;
+    text-decoration: none;
+ 
+}
 
-
-
+.Contact{
+    position: absolute;
+    left:900px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+   
+}
+.About{
+    position: absolute;
+    left:1000px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+   
+    
+}
+.News{
+    position: absolute;
+    left:1100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+   
+}
