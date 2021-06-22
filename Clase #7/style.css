@@ -1,0 +1,12 @@
+input{
+
+    background-color: cornflowerblue;
+    border-radius: 4px;
+    border-width: 2px;
+    height: 40px;
+    border-color: black;
+    cursor: pointer;
+}
+input:focus{
+    background-color: silver;
+}
