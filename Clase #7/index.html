@@ -1,22 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>
-        Tarea Formulario y el DOM</title>
-</head>
-<body>
-    <script src="main.js"></script>
-    <div id="caja">
-       <p>Hola que tal</p> </div>
-       <br>
-       <div class="botones">
-        <input type="button" value="Cambiar div content" onclick="cambiarletra()">
-        <input type="button" value="Cambiar background-color" onclick="cambiarfondo()">
-        <input type="button" value="Cambiar lo demas" onclick="cambiarfuente()">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FORM & DOM </title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <div class="img-dom">
+        <img src="dom.png" alt="" />
+      </div>
+    
+      <hr />
+      <div class="form">
+        <form action="">
+            <br>
+          <label for="">Ancho:</label>
+          <input class="ancho" type="text" placeholder="" /> <br />
+          <br />
+          <label for="">Altura:</label>
+          <input class="alto" type="text"> <br>
+          <br>
+          <label for="">Color:</label>
+          <input class="color" type="text" > <br>
+          <br>
+          <label for="">Texto:</label>
+          <input class="texto" type="text"> <br>
+          <br>
+          
+          <button type="button" id="boton">Ejecutar Codigo</button>
+    <br>
+    <br>
+        </form>
+      </div>
+
+      <div id="contenedor">
+        <h4 class="texto-div">Box</h4>
+      </div>
     </div>
-</body>
+
+    <script src="main.js"></script>
+  </body>
 </html>
